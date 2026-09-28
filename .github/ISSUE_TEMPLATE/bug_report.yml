@@ -1,0 +1,71 @@
+name: Bug report
+description: Something in dock-g does not work as expected
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to report this. The more precise the steps, the faster it can be fixed.
+
+        Please do not include server URLs, tokens or passwords anywhere in this report.
+
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened?
+      description: Describe the problem and what you expected instead.
+    validations:
+      required: true
+
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      placeholder: |
+        1. Open ...
+        2. Tap ...
+        3. The app ...
+    validations:
+      required: true
+
+  - type: input
+    id: app-version
+    attributes:
+      label: dock-g version
+      description: Settings → About, e.g. 1.9
+    validations:
+      required: true
+
+  - type: input
+    id: os-version
+    attributes:
+      label: Device and OS version
+      placeholder: e.g. iPhone 15 Pro, iOS 26.0
+    validations:
+      required: true
+
+  - type: input
+    id: server-version
+    attributes:
+      label: Dockge / Dockge Enhanced version
+      placeholder: e.g. Dockge 1.5.0 or Dockge Enhanced 2.x
+    validations:
+      required: true
+
+  - type: dropdown
+    id: connection
+    attributes:
+      label: How do you reach your server?
+      options:
+        - Home network (direct)
+        - VPN
+        - Public URL / reverse proxy
+        - Not sure
+    validations:
+      required: true
+
+  - type: textarea
+    id: screenshots
+    attributes:
+      label: Screenshots or logs
+      description: Anything that helps to understand the problem — please remove server addresses and tokens first.

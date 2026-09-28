@@ -1,0 +1,24 @@
+name: Feature request
+description: Suggest an idea for dock-g
+labels: ["enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Before you write: a quick look at the [changelog](https://www.dock-g.app/en/changelog/)
+        may show the feature already shipped.
+
+  - type: textarea
+    id: problem
+    attributes:
+      label: What are you trying to do?
+      description: Describe the situation, not only the solution you have in mind.
+    validations:
+      required: true
+
+  - type: textarea
+    id: idea
+    attributes:
+      label: How should it work?
+    validations:
+      required: true

@@ -1,0 +1,11 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Frequently asked questions
+    url: https://www.dock-g.app/en/faq/
+    about: Connection problems, setup, purchases — start here.
+  - name: Private support request
+    url: https://www.dock-g.app/en/support/
+    about: Reaches the developer directly, without posting publicly.
+  - name: Dockge server issues
+    url: https://github.com/louislam/dockge/issues
+    about: For problems with the server itself, not with this app.
