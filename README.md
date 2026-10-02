@@ -4,6 +4,11 @@
 
 <h1 align="center">dock-g</h1>
 
+<p align="center">
+  <strong>An unofficial, independent app for <a href="https://github.com/louislam/dockge">Dockge</a> and <a href="https://github.com/aerya/dockge-enhanced">Dockge Enhanced</a>.</strong><br>
+  Not affiliated with, developed, endorsed or reviewed by the maintainers of Dockge and Dockge Enhanced.
+</p>
+
 <p align="center"><strong>Your Docker stacks. In your pocket.</strong></p>
 
 <p align="center">
@@ -24,8 +29,9 @@
 
 ---
 
-> dock-g is an independent, unofficial community client. It is not part of the official
-> Dockge project — with respect and thanks to the team that builds and maintains it.
+> dock-g is a community project by Sven Hanold. It is not part of the official Dockge and Dockge Enhanced
+> projects. The names Dockge and Dockge Enhanced are used here only to say what this app connects to —
+> with respect and thanks to the people who build and maintain them.
 
 ## Screenshots
 
